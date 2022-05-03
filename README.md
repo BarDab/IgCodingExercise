@@ -2,7 +2,7 @@
 
 T**here are two challanges completed within this project:**
 1. Credit card number validation using Luhn algorithm, mechanism is written in class CreditCardValidator and covered with basic unit tests veryfing if logic behind it is correct.   
-2. Continually add a number to its reverse to arrive at a palindrome.
+2. Continually add a number to its reverse to arrive at a palindrome. This mechanism is implemented in PalindromeGenerator and also covered by unit tests.
 
 
 Credit card number validation considers plain numbers only, any other sign will result in failed validation.
