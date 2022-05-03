@@ -12,7 +12,7 @@ As for second challange, only integers are accepted as an input.
 **Both mechanism can be accesses through class InputConsole, where user is instucted how to use the app.**
 
 **Instrucions for running app:**
-1. Make sure you have Java, the JDK, and Maven installed
+1. Make sure you have Java, the JDK (11 or higher), and Maven installed
 2. Clone the repo
 2. Run cmd command in root folder: mvn clean compile package
 3. Run cmd command in src\main\java\com\bardab folder: java InputConsole 
