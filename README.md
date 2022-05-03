@@ -17,6 +17,5 @@ As for second challange, only integers are accepted as an input.
 2. Run cmd command in root folder: mvn clean compile package
 3. Run cmd command in src\main\java\com\bardab folder: java InputConsole 
 
-
-**In order to run test: **
+**In order to run test:**
 1. Run cmd command in root folder: mvn test
