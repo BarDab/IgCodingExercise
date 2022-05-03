@@ -12,7 +12,7 @@ public class InputConsole {
 
 
             if (choice==1) {
-                System.out.println("Credit Card Number Validator, please enter credit card number to validate");
+                System.out.println("Credit Card Number Validator, please enter credit card number to validate and press enter");
 
                 if (new CreditCardNumberValidator().validateCreditCardNumberUsingLuhnChecksum(scanner.next() + "")) {
                     System.out.println("Credit card number is valid");
@@ -24,7 +24,7 @@ public class InputConsole {
 
             }
             else if (choice==2) {
-                System.out.println("Palindrome generator, please enter the number to start from ");
+                System.out.println("Palindrome generator, please enter the number to start from and press enter");
                 PalindromeGenerator palindromeGenerator = new PalindromeGenerator().arriveAtPalindrome(scanner.next());
                 System.out.println("Palindrome of value "+palindromeGenerator.getPalindrome()+" generated after " +palindromeGenerator.getIterations()+" iteration");
 
@@ -43,7 +43,7 @@ public class InputConsole {
 
         /***************************************************/
 
-        System.out.println("Choose from these choices");
+        System.out.println("Choose from these choices and press enter");
         System.out.println("-------------------------\n");
         System.out.println("1 - to choose Credit Card Number Validator");
         System.out.println("2 - to choose Palindrome Generator");
