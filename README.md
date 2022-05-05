@@ -15,7 +15,7 @@ As for second challange, only integers are accepted as an input.
 1. Make sure you have Java, the JDK (11 or higher), and Maven installed
 2. Clone the repo
 2. Run cmd command in root folder: mvn clean compile package
-3. Run cmd command in src\main\java\com\bardab folder: java InputConsole 
+3. Run cmd command in \target\classes folder: java InputConsole 
 
 **In order to run test:**
 1. Run cmd command in root folder: mvn test
